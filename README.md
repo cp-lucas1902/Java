@@ -16,5 +16,6 @@ StringBuffer buffer = new StringBuffer("select * ");
 		buffer.append(" Carro ");
 		System.out.println("QUERY: " + buffer);
 ```
+RESULTADO: QUERY: select * from  Carro 
 	
 
