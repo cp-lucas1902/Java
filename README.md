@@ -8,5 +8,10 @@ I hope it helps !
 ```java
 public StringBuffer(String str)
 ```
+`:append `Acrescenta a string especificada a esta sequência de caracteres.
 
+```java
+append(String str)
+```
+	
 
