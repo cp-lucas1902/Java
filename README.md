@@ -3,7 +3,7 @@ I hope it helps !
 
 ## StringBuffer
 
-Java controla o acesso a atributos e métodos através do uso dos modificadores de acesso. São eles :
+
 
 ```java
 public StringBuffer(String str)
