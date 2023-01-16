@@ -29,7 +29,32 @@ RESULTADO: * from  Carro
 `:deleteCharAt(int index)` Remove o caractere na posição especificada nesta sequência.
 ```java
 	buffer.deleteCharAt(0);
-	System.out.println("QUERY: " + buffer);
+	System.out.println(buffer);
 ```
 RESULTADO: elect * from  Carro
 
+`:replace(int start, int end, String str)` Substitui os caracteres em uma substring desta sequência por caracteres na String especificada.
+```java
+StringBuffer buffer = new StringBuffer("select * ");
+	buffer.append("from ");
+	buffer.append("Carro");
+	buffer.replace(14, 20, "Moto");
+		
+	System.out.println(buffer);
+```
+RESULTADO: select * from Moto
+
+`:insert(int offset, String str)` Insere a string nesta sequência de caracteres.
+```java
+StringBuffer buffer = new StringBuffer("select * ");
+	buffer.append("from ");
+	buffer.append("Carro");
+	buffer.replace(14, 20, "Moto");
+	buffer.insert(18, " where");
+	System.out.println(buffer);
+```
+RESULTADO: select * from Moto where
+
+## DICA 
+
+Como nos exemplos logo acima uso bastante para montagem de querys dinâmicas!
