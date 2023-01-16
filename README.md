@@ -14,14 +14,22 @@ public StringBuffer(String str)
 StringBuffer buffer = new StringBuffer("select * ");
 	buffer.append("from ");
 	buffer.append(" Carro ");
-	System.out.println("QUERY: " + buffer);
+	System.out.println(buffer);
 ```
 RESULTADO: QUERY: select * from  Carro 
 
 `:delete (int start, int end)` Remove os caracteres em uma substring desta sequência.
 ```java
 	buffer.delete(0, 6);
-	System.out.println("QUERY: " + buffer);
+	System.out.println(buffer);
 ```
 RESULTADO: * from  Carro 
+
+
+`:deleteCharAt(int index)` Remove o caractere na posição especificada nesta sequência.
+```java
+	buffer.deleteCharAt(0);
+	System.out.println("QUERY: " + buffer);
+```
+RESULTADO: elect * from  Carro
 
