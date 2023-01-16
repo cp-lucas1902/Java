@@ -12,10 +12,16 @@ public StringBuffer(String str)
 
 ```java
 StringBuffer buffer = new StringBuffer("select * ");
-		buffer.append("from ");
-		buffer.append(" Carro ");
-		System.out.println("QUERY: " + buffer);
+	buffer.append("from ");
+	buffer.append(" Carro ");
+	System.out.println("QUERY: " + buffer);
 ```
 RESULTADO: QUERY: select * from  Carro 
-	
+`:delete (int start, int end)` Remove os caracteres em uma substring desta sequência.
+
+```java
+	buffer.delete(0, 6);
+	System.out.println("QUERY: " + buffer);
+```
+RESULTADO: * from  Carro 
 
