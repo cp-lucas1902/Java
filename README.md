@@ -17,8 +17,8 @@ StringBuffer buffer = new StringBuffer("select * ");
 	System.out.println("QUERY: " + buffer);
 ```
 RESULTADO: QUERY: select * from  Carro 
-`:delete (int start, int end)` Remove os caracteres em uma substring desta sequência.
 
+`:delete (int start, int end)` Remove os caracteres em uma substring desta sequência.
 ```java
 	buffer.delete(0, 6);
 	System.out.println("QUERY: " + buffer);
