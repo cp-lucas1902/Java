@@ -20,6 +20,6 @@ métodos da própria classe e pelas classes derivadas.
 
 
 
-```ts
+```java
 public String name = 'texto';
 ```
