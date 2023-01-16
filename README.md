@@ -21,5 +21,5 @@ métodos da própria classe e pelas classes derivadas.
 
 
 ```ts
-let text:string = 'texto';
+public String name = 'texto';
 ```
