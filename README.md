@@ -62,9 +62,13 @@ Como nos exemplos logo acima uso bastante para montagem de querys dinâmicas!
 ## Pattern - Regex
 
 `:Pattern ` Uma expressão regular é uma sequência de caracteres que forma um padrão de pesquisa. Ao pesquisar dados em um texto, você pode usar esse padrão de pesquisa para descrever o que está procurando.
+
 `:Pattern` - Define um padrão (para ser usado em uma pesquisa)
+
 `:Pattern.compile()` - Pattern.CASE_INSENSITIVE - O primeiro parâmetro indica qual padrão está sendo pesquisado e o segundo parâmetro tem um sinalizador para indicar que a pesquisa não deve diferenciar maiúsculas de minúsculas. O segundo parâmetro é opcional.
+
 O `:Matcher()` método é usado para procurar o padrão em uma string. Ele retorna um objeto Matcher que contém informações sobre a pesquisa realizada.
+
 O `:find()` método retorna true se o padrão foi encontrado na string e false se não foi encontrado.
 
 `:CANON_EQ`  Ativa a equivalência canônica.
