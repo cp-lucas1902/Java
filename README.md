@@ -72,6 +72,7 @@ O `:Matcher()` método é usado para procurar o padrão em uma string. Ele retor
 O `:find()` método retorna true se o padrão foi encontrado na string e false se não foi encontrado.
 
 `:CANON_EQ`  Ativa a equivalência canônica.
+
 `:CASE_INSENSITIVE` Ativa a correspondência que não diferencia maiúsculas de minúsculas.
 
 ```java
